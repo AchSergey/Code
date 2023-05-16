@@ -11,7 +11,7 @@ public class Loops {
         group[2] = new Student("Greg", "312", 22, "male", "History", false);
         group[3] = new Student("Kate", "312", 21, "female", "History", false);
 
-        // для каждого std типа Student из group сделать...
+        // для каждого std типа Student из group сделать... std это просто неизвестная (можно назвать как хочешь)
         for (Student std : group){ // тело цикла
             std.age++;
             System.out.println( std.name );
